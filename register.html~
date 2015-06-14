@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>  </head>
+<h2 align="center"> Register</h2>
+<style type="text/css"> 
+body {
+background-image:url("/images/bck3.jpg");
+background-repeat: no-repeat;}
+#register {
+background-color: #7B68EE;
+margin: 50px auto;
+width: 300px;
+text-align: center;
+}
+</style>
+<body>
+<div id="register">
+<form action="rconnect.php" method="post">
+<fieldset>
+<p><input type="text" required value="Name"name="name" onBlur="if(this.value=='')this.value='Name'" onFocus="if(this.value=='Name')this.value='' "></p>
+<p><input type="text" required value="Email"name="email" onBlur="if(this.value=='')this.value='Email'" onFocus="if(this.value=='Email')this.value='' "></p>
+<p><input type="text" required value="Username"name="username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
+<p><input type="password" required value="Password"name="password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<p><input type="password" required value="RePassword"name="password" onBlur="if(this.value=='')this.value='RePassword'" onFocus="if(this.value=='RePassword')this.value='' "></p>
+<p><input type="text" required value="Phone"name="phone" onBlur="if(this.value=='')this.value='Phone'" onFocus="if(this.value=='Phone')this.value='' "></p>
+<p > <a href="login.html"><input type="submit" value="Register" ></a></p>
+</fieldset>
+</form>
+</div> 
+<</form>
+</body>
+</html>
